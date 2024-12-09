@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+    list-style: none;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+.left,
+.right{
+    width: 600px;
+    height: 782px;
+}
+.left{
+    background-image: url(./images/left-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left__info{
+    width: 285px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 24px;
+}
+.left__info h1{
+    color: #fff;
+    font-size: 24px;
+    line-height: normal;
+    letter-spacing: 2px;
+}
+.left__info a{
+    display: inline-flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    background: #1E90FF;
+}
+.left__info a:hover{
+    background: rgba(30, 144, 255, 0.80);
+}
+.left__info a span{
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2px;
+}
+.right{
+    padding: 54px;
+}
+.right__title{
+    color: #222;
+    font-size: 24px;
+    line-height: normal;
+    letter-spacing: 2px;
+    margin-bottom: 24px;
+}
+.right hr{
+    margin-bottom: 24px;
+}
+.right__item{
+    display: flex;
+    margin-bottom: 10px;
+    align-items: flex-start;
+}
+.image{
+    width: 160px;
+    height: 90px;
+}
+.image img{
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+.image:hover img{
+    transform: scale(1.1);
+}
+.info{
+    padding: 16px;
+}
+.info h3{
+    color: #222;
+    font-size: 18px;
+    line-height: normal;
+    letter-spacing: 2px;
+    margin-bottom: 4px;
+}
+.info h3:hover{
+    color: #1E90FF;
+    cursor: pointer;
+}
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.icons div{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.icons div img{
+   width: 16px;
+   height: 16px; 
+}
+.icons div span{
+    color: #888;
+    font-size: 14px;
+    line-height: normal;
+}
+.right__btn{
+    padding: 16px;
+    border-radius: 4px;
+    background: #1E90FF;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+    width: 100%;
+    border: none;
+}
+.right__btn:hover{
+    cursor: pointer;
+    background: rgba(30, 144, 255, 0.80);
+}
